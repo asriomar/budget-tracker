@@ -98,7 +98,7 @@ const BudgetTracker = () => {
   };
 
   return (
-    <div className="flex gap-2 flex-col md:w-1/2 mx-auto font-mono text-center">
+    <div className="flex gap-2 flex-col md:w-2/3 mx-auto font-mono text-center">
       {/*<h2 className="text-center text-3xl font-bold my-3">Budget Tracker</h2>*/}
       <div className="bg-orange-400 p-4 rounded-lg shadow-lg">
         <label className="font-bold text-2xl">
@@ -129,6 +129,7 @@ const BudgetTracker = () => {
               >
                 Delete
               </button>
+              <hr />
             </li>
           ))}
         </ul>
@@ -178,6 +179,7 @@ const BudgetTracker = () => {
               >
                 Delete
               </button>
+              <hr />
             </li>
           ))}
         </ul>
